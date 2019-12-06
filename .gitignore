@@ -4,9 +4,11 @@ node_modules
 node_modules/
 .gitignore
 .elasticbeanstalk/
+/config/sqlConfig.js
 
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+

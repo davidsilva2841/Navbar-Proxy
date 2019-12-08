@@ -3,9 +3,7 @@ const router = express.Router();
 
 const {searchTable} = require('../services/mysql');
 
-router.get('/', (req, res) => {
-	res.send('received');
-});
+// --------------------------------------------------------------------------------------------------
 
 // Searching products
 router.post('/', (req, res) => {

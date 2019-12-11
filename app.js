@@ -7,19 +7,28 @@ const path = require('path');
 
 const app = express();
 
+// Middleware
+app.use(cors());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(cookieParser());
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Routes
 require("./startup/routes")(app);
 require('./middleware/logger')(app);
 
 // --------------------------------------------------------------------------------------------------
-// Middleware
 
-app.use(cors());
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.get('/test', (req, res) => {
+	res.send('response content here');
+	res.end();
+});
 
-// --------------------------------------------------------------------------------------------------
+app.post('/test', (req, res) => {
+    console.log(req.body);
+	res.end();
+});
 
 // Catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -33,8 +42,7 @@ app.use(function(err, req, res, next) {
   res.locals.error = req.app.get('env') === 'development' ? err : {};
 
   // Render the error page
-  res.status(err.status || 500);
-  res.render('error');
+  res.sendStatus(500);
 });
 
 module.exports = app;

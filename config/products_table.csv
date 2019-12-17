@@ -1,21 +1,102 @@
-ID,Name,Price,SKU,Model,OnHand,Image1
-21,Yee Haw Cabin,100000,7-001,8407,16,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHT4BZXwqC498hcEQ0XJf2MW2Q1b9pZdWY5dCc9_5JGDk8yObX&s
-22,Super Log Cabin,1,7-002,19150,25,https://images-na.ssl-images-amazon.com/images/I/716g6nwz79L._SX466_.jpg
-23,Smelly Cabin,0.01,7-003,6378,4,https://qph.fs.quoracdn.net/main-qimg-0fbf1c07e7746a7ac71d5d4326eae5e5
-24,Boxy Cabin,10,7-004,13510,15,https://i5.walmartimages.com/asr/04f525bf-dc66-40fc-b969-6bb18d72f0ee_1.23d30755bba9df28e4d3ac3f63618a02.jpeg
-25,Small Cabin,1000,7-005,9859,4,https://i.pinimg.com/originals/c0/b1/3a/c0b13a1708806561a231aaa4dadf48a1.jpg
-26,Hot Cabin,0.01,7-006,19448,0,https://tribkcpq.files.wordpress.com/2013/07/fire14.png
-27,Imaginary Cabin,10000000,7-007,10081,15,https://q7i2y6d5.stackpathcdn.com/wp-content/uploads/2019/04/lawn-pH.jpg
-28,Oops Cabin,10,7-008,14260,16,https://xliulucas.files.wordpress.com/2012/12/1-2.jpg
-29,Swimming Cabin,100000,7-009,12026,24,https://i.pinimg.com/originals/ce/be/f9/cebef99c236b31d3ef2eb6460ccc61b2.jpg
-30,Adaptable Cabin,10000,7-010,9120,19,https://www.designboom.com/wp-content/uploads/2018/10/jacob-witzling-truck-cabin-designboom-600.jpg
-31,The Shining Cabin,1000000,7-011,5010,7,https://images.ladbible.com/thumbnail?type=jpeg&url=http://beta.ems.ladbiblegroup.com/s3/content/2b9b9d395d3d0b254d1f211c805e8ab7.png&quality=70&width=720
-32,Gates Cabin,127000000,7-012,11968,16,https://image.cnbcfm.com/api/v1/image/105841065-1554818009865gettyimages-626759612.jpg?v=1561392118&w=1400&h=950
-33,Cabin in the woods,100,7-013,16378,16,https://static0.srcdn.com/wordpress/wp-content/uploads/2018/10/Cabin-in-the-Woods-Movie-Poster.jpg
-34,Ewok Cabins,100000,7-014,9290,5,https://vignette.wikia.nocookie.net/starwars/images/d/dd/ST-ewokvillage.jpg/revision/latest?cb=20070811234556
-35,Artsy Cabin,10,7-015,11383,25,https://cdn0.rubylane.com/_pod/item/1356998/833/Log-Cabin-Ranch-House-Original-Acrylic-full-1A-700%3A10.10-55-r-ffffff-99abbc.png
-36,Scary Cabin,10000,7-016,11818,0,https://st.hzcdn.com/fimgs/ece24ad20f97a0f0_7200-w500-h400-b0-p0--.jpg
-37,Log Cabin,100,7-017,12859,24,https://freerangestock.com/sample/17815/old-western-house.jpg
-38,Tree Cabin,10000,7-018,18788,22,https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2019/4/17/0/HUHH2019-Escape_Fall-City-WA_19.jpg.rend.hgtvcom.966.725.suffix/1555507098172.jpeg
-39,Wet Cabin,1,7-019,17902,12,http://images.ourontario.ca/Partners/WHMPL/WHMPL078144.jpg
-40,Remote Cabin,10000,7-020,19408,22,https://live.staticflickr.com/4480/37457964781_01962f8bc8_b.jpg
+ID,Name,Price,SKU,Model,On Hand
+1,Amazing Cowboys Western Belt,19.13,6-001,5195,22
+2,Silver Rhinestone Westernized Belt,26.79,6-002,9171,2
+3,Authentic Cowboy Boots,86.43,6-003,12567,4
+4,Brown Boots For True Cowboys,65.65,6-004,10488,6
+5,10% Cotton Blue Real Cowboy Shirt,29.99,6-005,19152,13
+6,23% Cotton Black Real Cowboy Shirt,29.98,6-006,12291,17
+7,100% Cotton Baby Blue Cowgirl Shirt,24.97,6-007,15740,3
+8,Cowgirl Hat Rose Gold,19.00,6-008,15567,20
+9,Mens Longhorn Cowboy Hat,23.45,6-009,13164,25
+10,Boys Cowboy Outfit,10.15,6-010,6685,12
+11,Girls Cowgirl Outfit,12.69,6-011,13594,2
+12,Imaginary Unisex Western Outfit,299.99,6-012,15906,17
+13,Brown Super Comfortable Poncho,33.33,6-013,16584,8
+14,Western Tuxedo with Glasses,125.00,6-014,8679,1
+15,Maroon Suit with Hat,66.66,6-015,13057,10
+16,Taurus Necklace,75.57,6-016,8780,19
+17,Hold Your Horses T-Shirt 1000% Cotton,20.00,6-017,9781,5
+18,Full Punchy Cowgirl Attire,29.99,6-018,10727,0
+19,Donkey T-Shirt 57% Cotton,22.11,6-019,9035,13
+20,Cowboy Take Me Away,14.41,6-020,16474,25
+21,Yee Haw Cabin,100000.00,7-001,8407,16
+22,Super Log Cabin,1.00,7-002,19150,25
+23,Smelly Cabin,0.01,7-003,6378,4
+24,Boxy Cabin,10.00,7-004,13510,15
+25,Small Cabin,1000.00,7-005,9859,4
+26,Hot Cabin,0.01,7-006,19448,0
+27,Imaginary Cabin,10000000.00,7-007,10081,15
+28,Oops Cabin,10.00,7-008,14260,16
+29,Swimming Cabin,100000.00,7-009,12026,24
+30,Adaptable Cabin,10000.00,7-010,9120,19
+31,The Shining Cabin,1000000.00,7-011,5010,7
+32,Gates Cabin,127000000.00,7-012,11968,16
+33,Cabin in the Woods,100.00,7-013,16378,16
+34,Ewok Cabins,100000.00,7-014,9290,5
+35,Artsy Cabin,10.00,7-015,11383,25
+36,Scary Cabin,10000.00,7-016,11818,0
+37,Log Cabin,100.00,7-017,12859,24
+38,Tree Cabin,10000.00,7-018,18788,22
+39,Wet Cabin,1.00,7-019,17902,12
+40,Remote Cabin,10000.00,7-020,19408,22
+41,Leather Saddle ,299.99,8-001,17481,14
+42,Fancy Saddle,599.99,8-002,12246,0
+43,Daddy Saddle - Princess Pink,19.99,8-003,17527,11
+44,Nerd Saddles (TM) - Batman Saddle,199.99,8-004,19785,16
+45,XXL Lasso,50.00,8-005,9063,16
+46,Star Spangled Patriotic Onesie for the Equine in Your Life,60.00,8-006,16499,23
+47,Pool Horsies 9-Pack,10.00,8-007,8928,7
+48,Imaginary Horse,11999.99,8-008,5008,22
+49,Horseshoes 2-Pack - Rose Gold,99.99,8-009,9684,20
+50,Horseshoes 2-Pack - Thoroughbred Red,99.99,8-010,19171,7
+51,Horseshoes 2-Pack - Victory Violet,99.99,8-011,6107,14
+52,White Mare 3-Pack,9999.99,8-012,16680,9
+53,Fly Mask With Ears - Grumpy Horse,19.99,8-013,12465,10
+54,My Little Ponies FurReal! - Pretty Pretty Pink (3-Pack),7999.99,8-014,19344,0
+55,Coachella Flowers for Indie Foals,24.99,8-015,17155,24
+56,Brown Horse (Refurbished),99.99,8-016,11440,3
+57,ShadowQuack (Meaning of Haste included),3999.99,8-017,18938,24
+58,Gentleman Horse,4999.99,8-018,12913,13
+59,Swole Horse,3499.99,8-019,12201,3
+60,SmartHorse (parkable anywhere),2999.99,8-020,14646,4
+61,Gold Rush Nugget Bucket Gold Panning Kit,109.95,9-001,15165,8
+62,SnakeArmor Snake Gaiters,153.98,9-002,19437,2
+63,SluiceFox Gold Panning Kit,49.00,9-003,7888,21
+64,Pickaxe,15.99,9-004,11790,8
+65,Gold Mining Ornament,11.99,9-005,13811,1
+66,Dynamite,895.00,9-006,16812,6
+67,Mud/Sifting Round Point Shovel,84.00,9-007,8241,23
+68,Wheelbarrow,199.99,9-008,6286,2
+69,Alaskan Yukon Gold Nuggets--1 Gram,61.35,9-009,15673,19
+70,Copper Lantern,10.75,9-010,15780,23
+71,Old Style Western Signs,25.68,9-011,13133,15
+72,Cowhide Area Rug,18.99,9-012,7941,17
+73,Cowboy Boot Toilet Brush Holder,34.95,9-013,16831,19
+74,Southwestern Steer Skull Wall Sculpture,19.95,9-014,9961,0
+75,Diamondback Rattlesnake Outdoor Statue,21.66,9-015,16791,15
+76,Mule Deer Antler Single Tier Chandelier,1398.00,9-016,6158,7
+77,Jesse James Wanted Poster,12.99,9-017,15527,23
+78,Western Shower Curtain,19.99,9-018,12321,1
+79,Drinking Chestnut Stallion Wine Bottle Holder,24.95,9-019,16833,24
+80,Prairie Rose Western Bronze Hand-Cast Wedding Cake Topper,44.95,9-020,13604,25
+81,Remington Rolling Block Rifle,399.99,12-001,14421,24
+82,Winchester Model 1873 Rifle,449.99,12-002,10979,24
+83,"
+Remington Army Revolver",499.99,12-003,13298,7
+84,Colt Model 1851 Navy Revolver,349.99,12-004,10473,4
+85,Winchester Model 1895 Rifle,349.99,12-005,11632,18
+86,Half-stock Hawken Rifle,399.99,12-006,8232,10
+87,Sharps Model 1853 Sporting Rifle,299.99,12-007,13690,20
+88,Heavy Silver Chain Watch,89.99,12-008,8044,18
+89,Clark Stanley's Snake Oil,4.99,12-009,12415,22
+90,Cowboy Snuff Box,7.99,12-010,8501,22
+91,Billy Club,24.99,12-011,9224,7
+92,American Flask and Cap,19.99,12-012,7143,4
+93,German Silver Mounted Western Headstall,24.99,12-013,15779,8
+94,Tomahawk ,49.99,12-014,12556,22
+95,Buffalo Ride,28.99,12-015,9080,23
+96,Hornady Custom Ammunition 405 Winchester,12.99,12-016,10454,20
+97,Hornady LEVERevolution .35 Remington Ammunition 20 Rounds,11.99,12-017,17375,2
+98, 54 Caliber Ammunition ,14.99,12-018,6409,21
+99,Tipi for one,84.99,12-019,7933,24
+100,Finger Pistol,0.00,12-020,15930,19

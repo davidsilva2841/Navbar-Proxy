@@ -25,8 +25,6 @@ const db = Bluebird.promisifyAll(connection);   // Promisify all library functio
 const searchTable = (dbName, tblName, column, value, like=false) => {
     let sql = `SELECT * FROM ${dbName}.${tblName} WHERE ${column} `;
     (like) ? sql += `LIKE '%${value}%';` : sql += `= '${value}';`;
-
-    console.log(sql);
     return db.queryAsync(sql);
 };
 

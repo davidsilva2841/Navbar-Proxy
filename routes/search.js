@@ -16,7 +16,7 @@ router.post('/', (req, res) => {
     if (req.body.Name === undefined) {
         res.sendStatus(404);
     } else {
-        searchTable('WestBuy', 'Products', 'Name', req.body.Name, true)
+        searchTable('WestBuy', 'NavbarProducts', 'Name', req.body.Name, true)
             .then(result => {
                 console.log('result: ', result);
                 res.send(result);

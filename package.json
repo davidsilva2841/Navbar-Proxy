@@ -4,7 +4,8 @@
     "private": true,
     "scripts": {
         "start": "node ./bin/www",
-        "dev": "NODE_ENV=development nodemon ./bin/www"
+        "dev": "NODE_ENV=development nodemon ./bin/www",
+        "devp": "NODE_ENV=production nodemon ./bin/www"
     },
     "dependencies": {
         "bluebird": "^3.7.2",
